@@ -1,0 +1,87 @@
+.card-container{
+    width: 15rem;
+  
+    
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    text-align: center;
+   
+ 
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0 ;
+}
+
+.card-title , .card-description{
+    margin: 0.5rem 5%;
+}
+
+.close-btn{
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem auto;
+    cursor: pointer;
+
+}
+
+.close-btn:hover{
+    color: red;
+}
+
+.post-date{
+    font-size: 0.7rem;
+    
+}
+
+.favourite-btn{
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem auto;
+    cursor: pointer;
+   
+    
+
+}
+
+.favourite-btn:hover{
+    color: rgb(116, 111, 111);
+}
+
+.delete-btn{
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem auto;
+    cursor: pointer;
+
+}
+
+.delete-btn:hover{
+    color: red;
+}
+
+.card-description{
+    color: black;
+    font-weight: bold;
+}

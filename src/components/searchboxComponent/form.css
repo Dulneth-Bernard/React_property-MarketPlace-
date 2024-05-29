@@ -1,0 +1,86 @@
+
+.input {
+    border: 3px solid rgba(38, 93, 244, 0.4);
+    background-color: rgba(152, 141, 141, 0.527);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+  }
+
+::placeholder{
+    color: rgb(55, 54, 54);
+}
+  .box > p{
+    text-align: center;
+  }
+
+  .searchText{
+    text-align: center;
+  }
+
+h3 , p{
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.searchText{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.box > p{
+    font-size: 1em;
+    color: white;
+
+}
+
+/* Smaller screens  */
+@media only screen and (max-width: 400px){
+    .input{
+        width: 50%;
+    }
+
+    .searchText{
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    .box > p{
+        font-size: 0.9em;
+        color: white;
+        
+    }
+    
+    
+
+}
+/* Largr than 2500px */
+
+@media only screen and (min-width: 2500px){
+    .input{
+        width: 40%;
+    }
+
+    .searchText{
+        font-size: 5rem;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    .box > p{
+        font-size: 3em;
+        color: white;
+        
+    }
+
+}

@@ -1,0 +1,26 @@
+/* The main div */
+.App{
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #faf9f6;
+}
+
+.form-section-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* Selects the dark areas and gives it a color */
+  background-color: rgb(83, 105, 114);
+  background-repeat: no repeat ;
+  background-image: url('https://img.freepik.com/premium-photo/love-new-home-family-standing-their-backyard-looking-their-property-luxury-real-estate-embrace-mortgage-parents-with-their-children-grass-their-house-mansion-canada_590464-134806.jpg?w=1380');
+  background-size: cover;
+  background-blend-mode: multiply;
+  
+}
+
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
