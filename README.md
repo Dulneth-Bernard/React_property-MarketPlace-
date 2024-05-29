@@ -1,3 +1,12 @@
+
+#iF YOU WANT TO RUN THE PROJECT
+#Clone or download the project
+# make sure to CHANGE DIRECTORY to propertyweb folder 
+#run "npm install" on terminal
+# and finally npm run dev
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
